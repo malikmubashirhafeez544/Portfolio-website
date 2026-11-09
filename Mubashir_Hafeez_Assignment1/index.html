@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic webpage information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Website title -->
+    <title>Mubashir Hafeez | Personal Portfolio</title>
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header and navigation -->
+    <header>
+        <div class="container header-container">
+
+            <h1>Mubashir Hafeez</h1>
+
+            <nav>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Personal introduction section -->
+        <section id="about">
+            <div class="container about-container">
+
+                <div class="about-text">
+
+                    <h2>Hello, I'm Mubashir Hafeez</h2>
+
+                    <h3>Computer Science Student | Aspiring Developer</h3>
+
+                    <p>
+                        I am a Bachelor of Computer Science student
+                        at Pak-Austria Fachhochschule Institute of
+                        Applied Sciences and Technology (PAF-IAST),
+                        Haripur, Pakistan.
+                    </p>
+
+                    <p>
+                        I am passionate about programming,
+                        frontend development and AI automation.
+                        I enjoy learning new technologies and
+                        developing practical software projects.
+                        My career goal is to become a professional
+                        software developer and AI automation engineer.
+                    </p>
+
+                    <a href="#contact" class="btn">Contact Me</a>
+
+                </div>
+
+                <!-- Profile picture (file must be images/profile.jpeg) -->
+                <div class="profile-container">
+
+                    <img
+                        src="images/profile.jpeg"
+                        alt="Mubashir Hafeez Profile Picture"
+                        class="profile-img">
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Education section -->
+        <section id="education">
+            <div class="container">
+
+                <h2 class="section-title">My Education</h2>
+
+                <div class="education-list">
+
+                    <div class="education-card">
+                        <h3>Bachelor of Computer Science</h3>
+                        <p>
+                            Pak-Austria Fachhochschule Institute
+                            of Applied Sciences and Technology
+                        </p>
+                        <p>School of Computing Sciences</p>
+                        <p>Haripur, Pakistan</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Technical skills section -->
+        <section id="skills">
+            <div class="container">
+
+                <h2 class="section-title">My Technical Skills</h2>
+
+                <ul class="skills-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>Database Management</li>
+                    <li>JavaScript (Learning Goal)</li>
+                </ul>
+
+            </div>
+        </section>
+
+        <!-- Academic projects section -->
+        <section id="projects">
+            <div class="container">
+
+                <h2 class="section-title">My Projects</h2>
+
+                <div class="table-container">
+
+                    <table>
+
+                        <thead>
+                            <tr>
+                                <th>Project Name</th>
+                                <th>Technology</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>IoT Based Paralysis System</td>
+                                <td>Database</td>
+                                <td>
+                                    An academic database project
+                                    related to an IoT-based
+                                    paralysis system.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Campus Event Scheduling Optimization</td>
+                                <td>Python / C++</td>
+                                <td>
+                                    An academic project using
+                                    optimization techniques to
+                                    schedule campus events.
+                                </td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact form section -->
+        <section id="contact">
+            <div class="container">
+
+                <h2 class="section-title">Contact Me</h2>
+
+                <form action="#" method="post">
+
+                    <label for="fullname">Full Name</label>
+
+                    <input
+                        type="text"
+                        id="fullname"
+                        name="fullname"
+                        placeholder="Enter your full name"
+                        required>
+
+                    <label for="email">Email Address</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required>
+
+                    <p class="reason-title">
+                        Reason for Contact
+                    </p>
+
+                    <div class="radio-group">
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="reason"
+                                value="Job Offer"
+                                required>
+                            Job Offer
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="reason"
+                                value="General Query">
+                            General Query
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="reason"
+                                value="Feedback">
+                            Feedback
+                        </label>
+
+                    </div>
+
+                    <button type="submit">Send Message</button>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer and social media links -->
+    <footer>
+        <div class="container">
+
+            <p>
+                &copy; 2026 Mubashir Hafeez.
+                All Rights Reserved.
+            </p>
+
+            <p>
+                Email:
+                <a href="mailto:mubashirhafeez544@gmail.com">
+                    mubashirhafeez544@gmail.com
+                </a>
+            </p>
+
+            <div class="social-links">
+
+                <a
+                    href="https://github.com/malikmubashirhafeez544"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    GitHub
+                </a>
+
+                <!-- TODO: replace with your own LinkedIn profile URL -->
+                <a
+                    href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
